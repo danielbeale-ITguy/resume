@@ -1,7 +1,17 @@
 
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right,rgb(0, 247, 255) 40%,rgb(225, 0, 255)) 
+}
+
+
+
+
 .top-header {
     display: flex;
     justify-content: center;
+    background-size: 50px;
 }
 
 .img-1 img{border-radius: 50%;}
@@ -30,7 +40,6 @@ text-align: center;}
 
 p{text-align: center;
 margin: auto;
-border: solid 1px black;
 max-width: 700px;
 }
 
@@ -38,7 +47,6 @@ max-width: 700px;
 ul {
     width: 650px;
     margin: auto;
-    border: solid 1px green;
     column-count: 2;
     column-gap: 30px;
 }
@@ -58,3 +66,10 @@ li{padding-bottom: 10px;}
     margin: 0 25px; /* Adjust the margin to create space between images */
   }
   
+
+
+  @media (max-width: 600px) {
+    .container {
+        padding: 10px; /* Decrease padding on smaller screens */
+    }
+}
