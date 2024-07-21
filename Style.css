@@ -1,41 +1,60 @@
 
-#img-1{border-radius: 50%;
-    float: left;
-margin: 5px;}
-
-
-
-
-a{text-align: center;}
-
-hr{
-    border-color: blue;
-    width: 70%;
-}
-
-h3{position: relative;
-text-align: center;}
-
-img{position: center}
-
-
-
-
-p{text-align: center;}
-
-
-
-.top-image {
-    float: left; /* Add margin between image and header */
-}
-
 .top-header {
-    position: relative;
-    left: 265px;
-    
+    display: flex;
+    justify-content: center;
 }
+
+.img-1 img{border-radius: 50%;}
+
 
 .centered-link {
     display: flex;
     justify-content: center; /* Centers items horizontally */
 }
+
+
+.line-break{
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;
+    border: none; /* Remove default border to avoid overriding blue color */
+    height: 2px; /* Specify height of the line */
+    width: 700px;
+    background-color: blue; /* Use background-color instead of border-color */
+}
+
+
+h3{position: relative;
+text-align: center;}
+
+
+p{text-align: center;
+margin: auto;
+border: solid 1px black;
+max-width: 700px;
+}
+
+
+ul {
+    width: 650px;
+    margin: auto;
+    border: solid 1px green;
+    column-count: 2;
+    column-gap: 30px;
+}
+
+li{padding-bottom: 10px;}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    height: 120px;
+    width: auto; 
+  }
+
+.image-container img {
+    max-width: 100%;
+    margin: 0 25px; /* Adjust the margin to create space between images */
+  }
+  
