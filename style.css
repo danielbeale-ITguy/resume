@@ -24,7 +24,7 @@ body {
   }
   
 .typing-demo {
-    width: 23ch;
+    width: 26ch;
     animation: typing 2s steps(22), blink .8s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
