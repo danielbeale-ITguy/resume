@@ -38,6 +38,10 @@ body {
     from {
       width: 0
     }
+		to {
+			width: 400px;
+		}
+
   }
       
 @keyframes blink {
@@ -81,18 +85,17 @@ padding: 10px;}
 
 
 table {
-  width: 100%;
-  border-collapse: collapse;
+  width: 700px;
+  margin: 20px auto; /* Center the table horizontally */
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  border-collapse: collapse; /* Optional: remove gaps between table cells */
 }
 
 td {
   text-align: center;
   font-family: "Roboto", sans-serif;
-
 }
-
-
-
 
 
 .centered-link {
