@@ -6,8 +6,6 @@
 
 }
 
-
-
 .image1 {border-radius: 50%;
     padding: 10px;}
 
@@ -16,12 +14,6 @@
     height: 120px;
     width: 150px
 }
-
-
-
-
-
-
 
 .flex-container > div:nth-child(2){
     display: flex;
@@ -32,9 +24,6 @@
     width: 100px;
 }
 
-
-
-
 .flex-container > div:nth-child(3){
     display: flex;
     flex-direction: column;
@@ -44,9 +33,6 @@
     width: 150px
 }
 
-
-
-
 .flex-container > div:nth-child(4){
     display: flex;
     flex-direction: column;
@@ -55,7 +41,6 @@
     height: 120px;
     width: 110px;
 }
-
 
 .flex-container > div:nth-child(5){
     display: flex;
@@ -67,7 +52,6 @@
     width: auto;
 }
 
-
 .flex-container > div:nth-child(6){
     display: flex;
     flex-direction: column;
@@ -77,3 +61,132 @@
     width: 110px;
 }
 
+
+
+
+
+
+
+
+
+
+.resume-container{
+    display: flex;
+    background-color: blueviolet;
+    flex-direction: column;
+    height: 50px;
+    width: 700px;
+}
+
+.resume-container > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    background-color: peru;
+    height: 100px;
+    width: 700px;
+}
+.resume-container > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(192, 133, 23);
+    height: 100px;
+    width: 700px;
+    border-bottom: 1px solid blue;}
+
+.resume-container > div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(126, 84, 6);
+    height: 100px;
+    width: 700px;
+    border-bottom: 1px solid blue;}    
+.resume-container > div:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(214, 188, 140);
+    height: 100px;
+    width: 700px;
+    border-bottom: 1px solid blue;}
+
+.resume-container > div:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(102, 86, 56);
+    height: 100px;
+    width: 700px;
+    border-bottom: 1px solid blue;}
+
+.resume-container > div:nth-child(6){
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 162, 20);
+    height: 100px;
+    width: 700px;
+    border-bottom: 1px solid blue;}
+
+.resume-container > div:nth-child(7){
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(108, 101, 201);
+    height: 1000px;
+    width: 700px;
+    border-bottom: 1px solid blue;}
+
+.resume-container > div:nth-child(8){
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(68, 160, 80);
+    height: 1000px;
+    width: 700px;
+    border-bottom: 1px solid blue;}
+
+.image-container img{
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    padding: 5px;
+
+}
+.resume-container > div:nth-child(9){
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(68, 160, 80);
+    height: 1000px;
+    width: 700px;
+    border-bottom: 1px solid blue;
+    }
+
+.resume-container > div:nth-child(10){
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(160, 68, 140);
+    height: 1000px;
+    width: 700px;
+    border-bottom: 1px solid blue;
+    }
+
+.resume-container > div:nth-child(11){
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(11, 49, 16);
+    height: 1000px;
+    width: 700px;
+    border-bottom: 1px solid blue;
+    }
+    .resume-container > div:nth-child(11) table {
+        width: 100%;
+      }
+      
+      .resume-container > div:nth-child(11) tr {
+        display: flex;
+        flex-wrap: wrap; /* Allow wrapping */
+        justify-content: space-between; /* Push items apart */
+      }
+      
+      .resume-container > div:nth-child(11) td {
+        padding: 8px;
+        box-sizing: border-box;
+      }
+      
+      .resume-container > div:nth-child(11) td.year {
+        margin-left: auto; /* Push year to the far right */
+      }
