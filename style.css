@@ -1,18 +1,79 @@
 
+body{background-color: rgb(240, 217, 184);}
 
-body {
-    margin: 0;
-    padding: 0;
-    background-image: linear-gradient(to bottom right,rgb(0, 247, 255) 40%,rgb(225, 0, 255)) 
+
+.flex-container {
+    display: flex;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+a{text-decoration: none;
+    color: inherit;
 }
 
 
 
-body {
-    margin: 0;
-    padding: 0;
-    background-image: linear-gradient(to bottom right,rgb(0, 247, 255) 40%,rgb(225, 0, 255)) 
+
+.image1 {border-radius: 50%;
+    padding: 10px;}
+
+.flex-container > div:nth-child(1){
+    height: 120px;
+    width: 150px;
 }
+
+.flex-container > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 120px;
+    width: 120px;
+    
+    
+}
+
+.flex-container > div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 120px;
+    width: 150px;
+    
+}
+
+.flex-container > div:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 120px;
+    width: 110px;
+    
+}
+
+.flex-container > div:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 0;
+    height: 120px;
+    flex-grow: 1;
+    width: auto;
+}
+
+.flex-container > div:nth-child(6){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 120px;
+    width: 110px;
+}
+
+
+
+
+
+
 
 
 
@@ -24,24 +85,22 @@ body {
   }
   
 .typing-demo {
-    width: 25ch;
-    animation: typing 2s steps(22), blink .8s step-end infinite alternate;
+    width: 27ch;
+    animation: typing 2.5s steps(25), blink .9s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 2.5em;
-    font-weight: 560;
+    font-size: 2.0em;
+    font-weight: 600;
   }
   
 @keyframes typing {
     from {
-      width: 0
+      width: 0ch;
     }
-		to {
-			width: 400px;
-		}
-
+    to {
+      width: 25ch;
+    }
   }
       
 @keyframes blink {
@@ -50,119 +109,226 @@ body {
     }
   }
 
-  
 
-.top-header {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+.resume-container{
     display: flex;
-    justify-content: center;
-    background-size: 50px;
-}
-
-.img-1 img{border-radius: 50%;
-padding: 10px;}
-
-
-.center-count {
-  position: absolute; /* Positions the container at the top left */
-  top: -5px; /* Sets the top position to 0 */
-  right: 10px; /* Sets the left position to 0 */
-  display: flex; /* Displays the items as a row */
-  flex-direction: column; /* Stacks the items vertically */
-  align-items: center;
-}
-
-.counter-container {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  margin-bottom: -10px;
-   /* Left-aligns the number */
-}
-#countlabel {
-  font-weight: bold;
-  font-family: "Roboto", sans-serif;
-}
-
-
-table {
-  width: 700px;
-  margin: 20px auto; /* Center the table horizontally */
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  border-collapse: collapse; /* Optional: remove gaps between table cells */
-}
-
-td {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-}
-
-
-.centered-link {
-    display: flex;
-    justify-content: center;
-    font-family: "Oswald", sans-serif;
-}
-
-
-
-.professional-summary {
-  text-align: center;
-  margin-top: 20px;
-  font-family: "Oswald", sans-serif;
-}
-
-
-.line-break{
-    display: flex;
-    justify-content: center; /* Centers items horizontally */
-    align-items: center;
-    border: none; /* Remove default border to avoid overriding blue color */
-    height: 2px; /* Specify height of the line */
+    flex-direction: column;
+    height: 50px;
     width: 700px;
-    background-color: blue; /* Use background-color instead of border-color */
+    margin: 0 auto;
 }
 
+.resume-container > div:nth-child(1){
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.resume-container > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 700px;
+    border-bottom: 1px solid blue;}
 
-h3{position: relative;
-text-align: center;
-font-family: "Oswald", sans-serif;}
+.resume-container > div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 700px;}    
+.resume-container > div:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 700px;
+    border-bottom: 1px solid blue;}
+
+.resume-container > div:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 700px;}
+
+.resume-container > div:nth-child(6){
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 700px;
+    border-bottom: 1px solid blue;}
+
+.resume-container > div:nth-child(7){
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 700px;
+    ;}
+
+.resume-container > div:nth-child(8){
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 700px;
+   }
+
+.image-container img{
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    padding: 10px;
+
+}
+.resume-container > div:nth-child(9){
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    width: 700px;
+    }
+
+ .resume-container > div:nth-child(10)  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px; /* fixed invalid unit */
+        width: 700px;
+        border-bottom: 1px solid blue;
+        text-align: center; /* optional, useful if you have inline content */
+        font-weight: bold;
+    }
 
 
-p{text-align: center;
-margin: auto;
-max-width: 700px;
-font-family: "Roboto", sans-serif;
+.resume-container > div:nth-child(11){
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    width: 700px;
+    
+    }
+.resume-container > div:nth-child(11) table {
+  width: 100%;
 }
 
-
-ul {
-    width: 650px;
-    margin: auto;
-    column-count: 2;
-    column-gap: 30px;
-    font-family: "Roboto", sans-serif;
+.resume-container > div:nth-child(11) tr {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: space-between; /* Push items apart */
 }
 
-li{padding-bottom: 10px;}
+.resume-container > div:nth-child(11) td {
+  padding: 8px;
+  box-sizing: border-box;
+}
 
-.image-container {
+.resume-container > div:nth-child(11) td.year {
+  margin-left: auto; /* Push year to the far right */
+}
+
+.resume-container > div:nth-child(12){
     display: flex;
     justify-content: center;
-    padding: 1%;
-    height: 100px;
-    width: auto; 
-  }
+    align-items: center;
+    height: 100px; /* fixed invalid unit */
+    width: 700px;
+    border-bottom: 1px solid blue;
+    text-align: center; /* optional, useful if you have inline content */
+    font-weight: bold;
+}
 
-.image-container img {
-    max-width: 100%;
-    margin: 0 25px; /* Adjust the margin to create space between images */
-  }
-  
-
-
-  @media (max-width: 600px) {
-    .container {
-        padding: 10px; /* Decrease padding on smaller screens */
+.resume-container > div:nth-child(13){
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    width: 700px;
+   
     }
+
+.resume-container > div:nth-child(14){
+display: flex;
+flex-direction: row;
+height: 1000px;
+width: 700px;
+
+}
+
+.resume-container > div:nth-child(15){
+display: flex;
+flex-direction: row;
+height: 1000px;
+width: 700px;
+
+}
+
+.resume-container > div:nth-child(16){
+display: flex;
+flex-direction: row;
+height: 1000px;
+width: 700px;
+
+}
+
+.resume-container > div:nth-child(17){
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    width: 700px;
+    
+    }
+
+.resume-container > div:nth-child(18){
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    width: 700px;
+
+    }
+
+.resume-container > div:nth-child(19){
+        display: flex;
+        flex-direction: row;
+        height: 1000px;
+        width: 700px;
+    
+        }
+
+.skill {
+    font-weight: bold;
+    padding: 2px
 }

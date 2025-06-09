@@ -1,117 +1,130 @@
-<!DOCTYPE html>
-
 <html>
 
 <head>
-    <title>Daniel Beale Resume</title> 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="style.css">
+
+
+</style>
+
+
+
+
 </head>
 
+
 <body onload="updatedcount()">
-    
 
 
-    <div class="img-1">
-        <img src="images/dan.jpg" height="100" >
+<div class='flex-container'>
+
+<div>
+    <img class="image1" src="images/dan.jpg" height="100" >
+</div>
+
+<div><a href="index">Resume</a> </div>
+<div><a href="pages/sliderpuzzle.html">Slider Puzzle</a> </div>
+<div><a href="pages/Contact.html">Contact</a> </div>
+<div>test</div>
+
+<div>
+  <h4>Visitor Counter</h4>
+    <label id="countlabel">0</label>
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="resume-container">
+
+
+<div class="wrapper">
+    <div class="typing-demo">
+      Cloud Resume by Daniel Beale.
     </div>
+</div>
 
 
-    <div class="center-count">
-        <div>
-          <h4>Visitor Counter</h4>
-          <div class="counter-container">
-            <label id="countlabel">0</label>
-          </div>
-          <script src="index.js"></script>
-        </div>
-      </div>
 
-    
-    <div class="wrapper">
-        <div class="typing-demo">
-          Cloud Resume by Daniel Beale.
-        </div>
-    </div>
 
-    <div class="content-container">
 
-    <div class="centered-link">
 
-    <a href="https://www.linkedin.com/in/daniel-beale-210898252/">Linkedin</a> 
-    </div>
-   
-
-    <h3>Professional Summary</h3>
-
-    
-    <hr class="line-break">
-    
-
-    <p>Hi and Welcome to my Cloud Resume! , I have been an Information communication and Technology Officer since October 2023, who has previously studied Networking and Cyber Security, I have a passion for Cloud Computing and in my freetime like to work on side projects to improve my skills and use my home lab.
-
-    </p>
-    <h3>Employment History</h3>
-    <hr class="line-break">
+<div class="title">Professional Summary</div>
+<div><p>Hi and Welcome to my Cloud Resume! , I have been an Information communication and Technology Officer since October 2023, who has previously studied Networking and Cyber Security, I have a passion for Cloud Computing and in my freetime like to work on side projects to improve my skills and use my home lab.
+</p></div>
+<div class="title">Employment History</div>
+<div>
     <table>
         <tr>
           <td>ICT Support Officer</td>
           <td>October 2023 - Present</td>
         </tr>
       </table>
+</div>
 
-    <h3>Industry Certifications</h3> <hr class="line-break">
-    <ul>
-        <li>AZ-900 Microsoft Azure Certified Fundamentals</li>
-        <li>MS-900 Microsoft 365 Certified Fundamentals</li>
-        <li>CompTIA Network +</li> <br>
-    </ul>
 
-    <div class = "image-container">
-        <img src="images/az-fund.png" alt="picture of azure AZ-900 badge">
-        </a>
-        <img src="images/ms-fund.png"   alt="picture of MS-900 badge">
-        <img src="images/networkplus-logo.png"   alt="picture of network + badge">
-    </div>
-    
-    </UL>
-    <h3>Skills/Technology</h3> <hr class="line-break">
-    <Ul>
-        <li>Windows Server Administration</li>
-        <li>Azure Administration</li>
-        <li>Powershell</li>
-        <li>Bash</li>
-        <li>Ip networking</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>python</li>
-        <li>Service desk Management</li>
-    </Ul>
-    <h3>Projects</h3> <hr class="line-break">
-    <ul><li>Cloud Resume Challenge</li></ul>
-    <h3>Education</h3> <hr class="line-break">
-    <UL>
-        <li>Advanced Diploma in Cyber Security</li>
-        <li>Certificate IV in Information Technology </li>
-    
+<div class="title">Industry Certifications</div>
 
-    </div>
+<div>
+    <table>
+        <tr>
+          <td>AZ-104 Azure Administrator Associate</td>
+          <td>MS-900 Microsoft 365 Fundamentals</td>
+        </tr>
+      </table>
+
+</div>
+
+<div>
+    <table>
+        <tr>
+          <td>AZ-900 Microsoft Azure Fundamentals</td>
+          <td>Comptia Network+</td>
+        </tr>
+      </table>
+
+</div>
+
+
+<div class = "image-container">
+    <img src="images/AZ-104.png"   alt="picture of AZ-104 badge">
+    <img src="images/az-fund.png" alt="picture of azure AZ-900 badge">
+    </a>
+    <img src="images/ms-fund.png"   alt="picture of MS-900 badge">
+    <img src="images/networkplus-logo.png"   alt="picture of network + badge">
+</div>
+
+<div class="title">Education</div>
+<div>
+    <table>
+      <tr>
+        <td>Advanced Diploma in Cyber Security</td>
+        <td class="year">2022 - 2023</td>
+      </tr>
+      <tr>
+        <td>Certificate IV in Information Technology</td>
+        <td class="year">2021 - 2022</td>
+      </tr>
+    </table>
+  </div>
+
+<div class="title">Technical Skills</div>
+<div class="skill">Systems & Platforms:</div>
+<div>Microsoft 365 (Office 365) Administration (Exchange Online, SharePoint, Teams, Azure AD), Cisco Meraki, CrowdStrike
+    Falcon</div>
+<div class="skill">Scripting & Automation:</div>
+<div>Python, PowerShell, Bash, JavaScript, HTML, CSS</div>
+<div class="skill">Security & Endpoint Management:</div>
+<div>CrowdStrike (Endpoint Detection & Response), Microsoft Defender, Conditional Access Policies</div>
+<div class="skill">Tools & Management:</div>
+<div>Microsoft Intune, Windows Server, Active Directory, Group Policy, IT Service Management (ITSM)</div>
+
+
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
